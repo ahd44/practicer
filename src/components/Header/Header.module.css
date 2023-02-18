@@ -1,0 +1,21 @@
+.Header {
+  color: #F0E7D8;
+  height: 65px;
+  padding: 10px;
+  display: block;
+  background-color: #444444;
+}
+
+.LargeText {
+  font-size: 3em;
+}
+
+.SmallText {
+  font-size: .8em;
+  padding-left: .5em;
+  text-transform: lowercase;
+}
+
+.Link {
+  color: #0FA3B1;
+}

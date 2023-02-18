@@ -1,0 +1,29 @@
+/* https: //coolors.co/444444-f0e7d8-ab9b96-ba6e6e-0fa3b1 */
+
+.AppWrapper {
+  width: 720px;
+  height: 100vh;
+  margin: 0px auto;
+  background-color: #F0E7D8;
+  user-select: none;
+}
+
+.BodyWrapper {
+  padding: 20px 50px 20px 50px;
+  background-color: #F0E7D8;
+}
+
+.AppWrapper button:focus:not(:focus-visible),
+.AppWrapper a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.AppWrapper button:focus,
+.AppWrapper button:focus-visible:focus:not(:focus-visible) {
+  outline: 4px #BA6E6E solid;
+}
+
+.AppWrapper a:focus,
+.AppWrapper a:focus-visible:focus:not(:focus-visible) {
+  outline: 1px #0FA3B1 solid;
+}

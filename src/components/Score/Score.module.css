@@ -1,0 +1,13 @@
+.ScoreWrapper {
+  height: 200px;
+  padding: 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 15;
+  position: relative;
+}
+
+.ScoreInterior {
+  height: 200px;
+}

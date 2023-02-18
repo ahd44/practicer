@@ -1,0 +1,18 @@
+.SelectedResponsesWrapper {
+    display: flex;
+    margin-left: 165px;
+    height: 50px;
+}
+
+.SelectedResponsesWrapper div {
+    width: 23px;
+    padding: 1px 0px 0px 7px;
+    height: 29px;
+    margin-right: 23px;
+    font-size: 1.4em;
+    border: rgba(0,0,0,.3) 1px solid;
+}
+
+.SelectedResponsesWrapper div:hover {
+    cursor: url(./redx2.png) 8 8, pointer;
+}

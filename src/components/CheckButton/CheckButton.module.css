@@ -1,0 +1,18 @@
+.CheckButtonWrapper button {
+    background-color: #AB9B96;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: box-shadow 500ms;
+    z-index: 2;
+}
+
+.CheckButtonWrapper button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 7px rgba(255, 255, 255, 1);
+    z-index: 1;
+}
